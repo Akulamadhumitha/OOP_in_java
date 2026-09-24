@@ -1,0 +1,28 @@
+JDK AND COMPILING CODE:
+-> jdk (java development kit) is used to compile our whatever written java code.
+-> and it's a kit which will be installed by developers in their systems inorder to compile the java code.
+-> JVM and JRE are the part of the this ENTIRE JDKit.
+UNDERSTANDING THE JVM :
+-> jvm (java virtual machiene) is where after compilation it runs to convert byte code into executable runable code in java.
+-> jvm is part of JRE.
+ROLE OF JRE:
+-> JRE (java runtime environment) creates a runtime environment where it has multiful external files or frameworks or
+   whatever resources and it has JVM as its part where the files in jvm need some external files and those will be 
+   provided by this Java runtime environment for successfully run the code in java.
+RELATIONSHIP BTW JDK AND JRE:
+-> the JDK is the first block where it has the second layer
+   as JRE and the third layer inside the JRE as the JVM.
+DIAGRAM FOR UNDERSTANDING ABOVE EXPLANATION : 
+                                                                                                            JDK(1st)
+                                                      |----------------------------------------------------------|
+                                                      |                                                          |
+                                                      |                                                          |
+                                                      |                                                          |
+                                                      |                                               JRE(2nd)   |
+                                                      |      |-----------------------------------------------|   |
+                                                      |      |                                 JVM(3rd)      |   |
+                                                      |      |                                               |   |
+                                                      |      |-----------------------------------------------|   |
+                                                      |                                                          |
+                                                      |                                                          |
+                                                      |----------------------------------------------------------|                                   
