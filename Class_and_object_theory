@@ -1,0 +1,24 @@
+INTRODUCTION TO OBJECTS:
+-> In our everyday life we go through so many objects and even in programming the industry may think the humans as objects
+-> For example a pen on my desk is a object so we know it has some properties to identify that it is a pen and 
+   we know the purpose of the pen object
+   -> so like that objects can have two things 1)objects know something(Properties) and 2) objects does something(Behavoiur)
+
+THINKING IN OBJECTS:
+-> thinking in objects is like when we want to add two difficult numbers we want an object to do that operation
+   so inorder to add we think of a calculator as a object
+-> so it's like what we know(I love dance) is called property of an object
+-> And I can(how will I dance like which steps do i perform) is called behavoiur of an object
+
+CLASSES AND JVM:
+-> class is used to create objects
+-> Imagine a situation where you want an table desk and approached a carpenter to make one for you.
+-> and now the carpenter asks you to give the design or some technical details inorder to make one so
+   here comes the concept called class where class behaves as a blueprint to create an object(make one table object).
+-> so in programming it follows same concept and the object will be created by the JVM in Java
+the steps involves like below;
+                                   the class will gives the blueprint on how the object should be created.
+                                                                       |
+                                         the class file will now compiled to create a byte code
+                                                                       |
+                                          that byte code goes into the JVM and creates the object.
