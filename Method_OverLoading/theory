@@ -1,0 +1,6 @@
+--> suppose you have written code to add two numbers
+--> later your friend told that now we have to add three numbers
+--> so changing parameters is easy but what if there are 100 numbers to add to the parameters
+Here comes the concept method overloading 
+" where we can have same method names in multiple with different parameters or data types "
+** the example code in this folder **
