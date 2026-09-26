@@ -1,0 +1,32 @@
+METHODS IN JAVA (INTRO) :
+-> let us take an example of a Car.
+-> We know there will be lots of functions in a car where we can say for example in programming language
+    -> engine function for a car class tells the behavoiur of car's engine.
+    -> seats function for a car class tells which type,len,color,number of seats of that particular car.
+    -> or driving function for a car class tells the driving nature of that car.
+-> In this way for a car class there are lots of functions which defines the behavoiur
+   of the car parts functioning is known as METHODS(which is nthng but tells the behavoiur).
+
+DEFINING THE METHOD BEHAVOIUR :
+class Computer{
+      public void playMusic(){         // void is there before playMusic method means don't return anything back
+        System.out.println("Music Playing");
+}
+      public String getMePen(int someParameter){    //this method will do something right(behavoiur) it will return you something right!
+         if(someParameter == 1){
+             return "pen";
+           }else{
+              return "nothing";
+           }
+}
+}
+public class Demo {
+      public static void main(String args[]){
+// CALLING METHODS WITH OBJECTS
+      Computer sys1 = new Computer();
+      String str = sys1.getMePen(1);
+      System.out.println(str);
+      sys1.playMusic();
+
+   }
+}
