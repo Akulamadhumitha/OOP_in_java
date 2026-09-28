@@ -1,0 +1,8 @@
+NEED OF AN ARRAY :- 
+-> suppose if i want to store more than one values of same data type I can't do that
+   assigning to only one variable name like we used to do ex: " int num = 1,2 .... " XXXXXX (wrong)
+-> then this array concept comes into the picture.
+-> we can store same data typed values under one variable name assigned to in two ways
+   1. int arr[] = {1,2,3,4}; where the [] telling its storing as a list of same data type
+   2. int arr[] = new arr[4]; this is the case where we don't know the values but we knew
+      that we have created an empty array of size 4.
