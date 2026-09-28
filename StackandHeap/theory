@@ -1,0 +1,20 @@
+Here in JVM :
+-> there are two types of memory.
+-> those are stack memory and heap memory.
+-> stack follows lifo structure where the lastly stored data comes out first from the this memory.
+-> whereas, heap follows open-space memory where all the data be stored at random space.
+
+STACK :-
+-> Every method along with main method in java code has its own stack memory.
+-> now let us assume there is one method i.e, main() and another method in the class as add() method.
+-> now the local variables or inside the one's method's local variables will be stored in their stack,
+   But where will the instance variables in the class be residing?
+     - "that's where the heap memory concept comes into the picture".
+
+HEAP :-
+-> whenever we create an obj(reference variables) with new keyboard
+-> that obj's referenced variable will be stored into heap with having an unique address for that.
+-> and the stored obj in heap has two parts inside it. at the first layer the instance variables data will be stored.
+-> in the second layer the methods that are called using those obj(ref var) will be stored.
+    -> now in the stack the created obj is the key and the value will be address (of that particular obj address in the heap).
+-> so we can easily say that there is link between the stack and heap in jvm.
